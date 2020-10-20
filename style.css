@@ -1,0 +1,72 @@
+/*general*/
+*
+{
+    text-transform: uppercase;
+}
+body
+{
+    margin: 0;
+    background-image: url(floating-islands-5646926_1920.jpg);
+    background-size: cover; 
+}
+h1
+{
+    opacity: 50%;
+    font-size: 80px;
+    text-align: center;
+}
+/*parti top header*/
+header
+{
+    display: flex;
+}
+#pheader
+{
+    opacity: 50%;
+    font-size: 50px;
+    text-align: center;
+}
+img
+{
+    float: left;
+    width: 20%;
+    height: 15%;
+    border-radius: 40%;
+    opacity: 75%;
+}
+/*parti main mid*/
+main
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.mid
+{
+    background-color: white;
+    opacity: 70%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px grey;
+    width: 400px;
+}
+.profil
+{
+    padding: 8px;
+}
+/*parti bot footer*/
+footer
+{
+    background-color: white;
+    opacity: 70%;
+    margin: 48px;
+    border-radius: 5px;
+}
+.bot
+{
+    box-shadow: 5px 5px 15px grey;
+    text-align: center;
+   
+}
